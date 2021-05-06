@@ -1,0 +1,36 @@
+.row{
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+
+    text-align: center;
+    width: 90;
+    margin: 0 auto;
+}
+
+.sec1-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+ 
+}
+.sec1-col img{
+    background-color: rgb(104, 149, 189);
+    margin: 0 1.5em;
+	text-align: start;
+}
+.sec1>a>img{
+    border-radius: 8px;
+    width: 100%;
+
+}
+
+.contenido-1>h3,p{
+    margin: 5px;
+}
+
+.contenido-2 >h3,p{
+    margin: 5px;
+}
